@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-2.0.2.min.js"></script>
+        <script>
+            function setColor(row, col, color) {
+            var cell = $("#t")[0].rows[row].cells[col];
+            cell.style.backgroundColor = color;
+             }
+             setColor(2,1, "purple");
+        </script>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>JS-Function-Grid</title>
+    </head>
+    <body>
+        <h2>Fun on a grid</h2>
+      <div class="intro">You get a function:
+      <div class="code">
+      setColor(row, column, color);
+      </div>
+      For a given row and column (both numbered from 0), it colors the corresponding cell. for example. try
+      <span class="code">
+      setColor(2, 0, "purple");
+      </span>
+    </div>
+  
+
+  <table id="t">
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </table>
+    </body>
+</html>
