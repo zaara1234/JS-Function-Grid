@@ -22,3 +22,9 @@ div.code {
   padding: 3px;
   padding-left: 1em;
 }
+
+strong{
+  color: green;
+  font-family: monospace;
+  font-weight: bold;
+}
